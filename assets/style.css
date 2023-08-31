@@ -1,6 +1,11 @@
+header {
+  text-align: center;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  padding-bottom: 50px;
 }
 
 textarea {
@@ -31,17 +36,17 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #7e95bc;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #4b90fe;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #1f56ae;
   color: white;
 }
 
@@ -49,11 +54,15 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #4574b3;
   color: white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+#currentDay {
+  font-size: 30px;
 }
